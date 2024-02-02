@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&psig=AOvVaw3lhVrPQqtQiOFnlmFuwoks&ust=1706239307129000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLC8_O_K94MDFQAAAAAdAAAAABAE");
+}
+form{
+    background: white;
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 10px;
+}
+form h1{
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+}
+form.field{
+    margin-top: 25px;
+}
+form.field label{
+    font-size: 13px;
+}
+form.filed.inputes{
+    height: 40px;
+    margin-top: 5px;
+    border-bottom: 1px solid #333;
+}
+form.filed.inputes i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 13px;
+    color: #666;
+}
+form.filed.input input{
+    float: right;
+    width:calc(100%-40px) ;
+    height: 40px;
+    border: none;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+form p{
+    font-size: 12px;
+    text-align: right;
+    margin-top: 10px;
+}
+form p a{
+    text-decoration: none;
+}
+form button{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background: blue;
+    border-radius: 50px;
+}
+form img{
+    width: 100%;
+}
+
